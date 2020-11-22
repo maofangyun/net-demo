@@ -60,7 +60,6 @@ public class ImproveNioSocket {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
     private void handleAccept(SelectionKey selectionKey) {
